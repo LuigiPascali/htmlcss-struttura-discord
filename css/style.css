@@ -20,3 +20,57 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+/* 
+    DEBUG
+*/
+
+.debug .container-aqua {
+  background-color: aqua;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.debug .column {
+    border: 1px dashed black;
+    height: 25px;
+    margin: auto; 
+}
+  
+.debug .column-left, .column-right {
+    background-color: #FFA500;
+    width: calc(50% - 10px);
+}
+  
+.debug .column-center {
+    background-color: #FFA500;
+    width: calc(100% - 20px);
+}
+
+#link{
+   text-align: center;
+}
+
+#login{
+    text-align: right;
+}
+
+.debug .container-blue {
+    background-color: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debug .container-fuchsia{
+    background-color: fuchsia;
+    height: 70%;
+    width: 50%;
+    margin: 10px 20px;
+
+}
+  
+
