@@ -21,15 +21,21 @@
     padding: 15px;
 }
 
-.logo, .login {
+.logo {
     width: 20%;
     padding: 10px;
 }
 
+.login{
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+}
+
 .links {
     width: 60%;
-    text-align: center;
     padding: 10px;
+    text-align: center;
 }
 
 .links a {
@@ -52,6 +58,10 @@
 /* 
     MAIN
 */
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
 
 .main-row1{
     max-width: 1200px;
@@ -129,6 +139,10 @@
     FOOTER
 */
 
+.bg-black{
+    background-color: black;
+}
+
 .footer-row2 {
     max-width: 1200px;
     margin: auto;
@@ -179,9 +193,7 @@
     border: 1px dashed black;
 }
 
-.debug .bg-grey{
-    background-color: grey;
-}
+
 
 .debug .main-row2 .main-column1{
     background-color: #FFC0CB;
@@ -208,9 +220,7 @@
     border: 1px dashed black;
 }
 
-.debug .bg-black{
-    background-color: black;
-}
+
 
 
 
@@ -222,7 +232,7 @@
     background-color: #67C7A7;
 }
 
-.debug .footer-logo, .debug button {
+.debug .footer-logo, button {
     background-color: #CD949D;
     border: 1px dashed black;
 }
