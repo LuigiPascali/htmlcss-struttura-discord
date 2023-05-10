@@ -143,6 +143,30 @@
     background-color: black;
 }
 
+.footer-row1{
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    height: 600px;
+    display: flex;
+}
+
+.footer-column1{
+    width: 30%;
+}
+
+.footer-column2{
+    width: 70%;
+    display: flex;
+}
+
+.footer-column2 > *{
+    width: 25%;
+}
+
+
+
+
 .footer-row2 {
     max-width: 1200px;
     margin: auto;
@@ -194,7 +218,6 @@
 }
 
 
-
 .debug .main-row2 .main-column1{
     background-color: #FFC0CB;
     border: 1px dashed black;
@@ -220,7 +243,18 @@
     border: 1px dashed black;
 }
 
+.debug .footer-column1{
+    border: 1px dashed black;
+    background-color: #F08080;
+}
 
+.debug .footer-column2{
+    background-color: #20B2AA;
+}
+
+.debug .footer-column2 >*{
+    border: 1px dashed white;
+}
 
 
 
